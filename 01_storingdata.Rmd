@@ -119,24 +119,29 @@ fs::dir_tree(here::here("correct_structure"))
 ```
 new_laptop/better_example_structure
 ├── courses
-├── project A
+├── project vhp_A
 │   ├── analyses
-│   │   ├── code
+│   │   ├── mixedmodelanalysis.R
 │   │   ├── data
+│   │   │   ├── current
+│   │   │   │   ├── metadata.txt
+│   │   │   │   └── sensible_filename.csv
+│   │   │   ├── v1
+│   │   │   │   └── sensible_filename.csv
+│   │   │   └── v2
+│   │   │       └── sensible_filename.csv
 │   │   └── data_raw
-│   │       └── Volunteer responses
+│   │       ├── Volunteer responses
+│   │       │   ├── Patient 2.xlsx
+│   │       │   ├── Patient_3.xlsx
+│   │       │   └── patient_1.xlsx
+│   │       └── someweirdfilenamecontchangeit.txt
 │   ├── documentation
-│   ├── ethical approval
-│   ├── images
 │   ├── manuscript
-│   │   ├── me_et al , 2020.docx
-│   │   ├── version 1
-│   │   └── version 2
-│   ├── methods
-│   │   └── protocols
-│   └── presentations
-├── project B
-└── project C
+│   │   └── me_et al , 2020.docx
+│   └── methods
+├── project vhp_B
+└── project vhp_C
 ```
 
 
